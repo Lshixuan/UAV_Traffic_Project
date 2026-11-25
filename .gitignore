@@ -1,0 +1,18 @@
+# 忽略模型權重檔與大檔案
+*.pt
+*.onnx
+*.engine
+weights/
+
+# 忽略資料集、測試影片與 YOLO 輸出結果
+data/
+DataVideo/
+datasets/
+runs/
+*.mp4
+*.avi
+*.jpg
+
+# 忽略 Python 與 VS Code 系統快取
+__pycache__/
+.vscode/
